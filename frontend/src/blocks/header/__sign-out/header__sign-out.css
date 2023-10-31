@@ -1,0 +1,20 @@
+/* CSS стили для header__sign-out */
+
+.header__sign-out {
+  display: block;
+  margin: 0;
+  min-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  background-color: black;
+  border: none;
+  transition: opacity 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header__sign-out:hover {
+  opacity: 0.6;
+}

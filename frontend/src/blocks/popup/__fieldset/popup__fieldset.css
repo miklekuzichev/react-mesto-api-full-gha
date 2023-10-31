@@ -1,0 +1,10 @@
+/* CSS стили для popup__fieldset */
+
+.popup__fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,21 @@
+/* CSS стили для auth__submit */
+
+.auth__submit {
+  width: 100%;
+  margin-top: 216px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: black;
+  background: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.auth__submit:hover {
+  opacity: 0.6;
+}

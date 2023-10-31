@@ -1,0 +1,17 @@
+/* CSS стили для card__heart-button-active */
+
+.card__heart-button-active {
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+  background: transparent url(../../../images/heart-active.svg) center no-repeat;
+  border: #ffffff;
+  background-size: contain;
+  transition: 0.3s linear;
+}
+
+.card__heart-button-active:hover {
+  opacity: 0.6;
+}

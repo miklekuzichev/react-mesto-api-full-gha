@@ -1,0 +1,42 @@
+/* CSS стили для popup__input */
+
+.popup__input {
+  width: 358px;
+  margin: 0;
+  /*margin-top: 30px;*/
+  margin-left: 36px;
+  padding: 0;
+  padding-bottom: 9px;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: start;
+}
+
+.popup__input:hover {
+  border-bottom-color: #000;
+}
+
+.popup__input::placeholder {
+  color: #c4c4c4;
+}
+/*
+  .popup__input:valid {
+    border-bottom: 1px solid #000000;
+  }
+  
+  .popup__input:invalid {
+    border-bottom: 1px solid #FF0000;
+  }
+*/
+@media screen and (max-width: 780px) {
+  .popup__input {
+    width: 238px;
+    margin-left: 22px;
+  }
+}

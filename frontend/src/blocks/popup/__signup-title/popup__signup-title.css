@@ -1,0 +1,11 @@
+/* CSS стили для popup__signup-title */
+
+.popup__signup-title {
+  max-width: 330px;
+  margin: 0;
+  color: black;
+  font-size: 24px;
+  line-height: 29px;
+  font-style: normal;
+  font-weight: 900;
+}

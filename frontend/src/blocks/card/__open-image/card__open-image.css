@@ -1,0 +1,15 @@
+/* CSS стили для card__open-image */
+
+.card__open-image {
+  margin: 0;
+  padding: 0;
+  width: 282px;
+  height: 282px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  border: none;
+  box-sizing: border-box;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: none;
+}

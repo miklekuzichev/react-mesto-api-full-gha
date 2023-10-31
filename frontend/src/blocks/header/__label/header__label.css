@@ -1,0 +1,13 @@
+/* CSS стили для header__label */
+
+.header__label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-right: 24px;
+  transition: opacity 0.3s;
+}
+
+.header__label:hover {
+  opacity: 0.6;
+}

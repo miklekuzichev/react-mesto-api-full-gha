@@ -1,0 +1,19 @@
+/* CSS стили для header__sign */
+
+.header__sign {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  max-width: 150px;
+  min-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  transition: opacity 0.3s;
+  text-decoration: none;
+}
+
+.header__sign:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,29 @@
+/* CSS стили для cards */
+
+.cards {
+  margin: 0;
+  margin: 51px auto 0 auto;
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px 17px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards {
+    max-width: 581px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 17px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .cards {
+    margin-top: 36px;
+    max-width: 282px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

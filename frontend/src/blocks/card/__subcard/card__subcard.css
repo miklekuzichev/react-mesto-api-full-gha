@@ -1,0 +1,14 @@
+/* CSS стили для card__subcard */
+
+.card__subcard {
+  margin: 0px;
+  padding: 0;
+  padding: 22px 20px 20px 21px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}

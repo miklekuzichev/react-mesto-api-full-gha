@@ -1,0 +1,7 @@
+/* CSS стили для popup__signup-icon */
+
+.popup__signup-icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 32px;
+}

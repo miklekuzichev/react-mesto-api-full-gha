@@ -1,0 +1,29 @@
+/* CSS стили для popup__close */
+
+.popup__close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  margin: 0;
+  padding: 0;
+  background: transparent url(../../../images/Close-Icon.svg) center no-repeat;
+  background-size: contain;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.popup__close:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 780px) {
+  .popup__close {
+    top: -36px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+  }
+}

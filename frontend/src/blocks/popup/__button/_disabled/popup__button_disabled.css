@@ -1,0 +1,15 @@
+/* CSS стили для popup__button_disabled */
+
+.popup__button_disabled {
+  color: rgba(0, 0, 0, 0.15);
+  /*border: 1px solid #ffffff;*/
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  border-radius: 2px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

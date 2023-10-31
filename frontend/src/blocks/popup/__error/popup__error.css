@@ -1,0 +1,22 @@
+/* CSS стили для popup__error */
+
+.popup__error {
+  width: 358px;
+  min-height: 30px;
+  padding: 0;
+  opacity: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 36px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff0000;
+}
+
+@media screen and (max-width: 780px) {
+  .popup__error {
+    width: 238px;
+    margin-left: 22px;
+  }
+}

@@ -1,0 +1,6 @@
+/* CSS стили для popup_opened */
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}

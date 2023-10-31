@@ -1,0 +1,19 @@
+/* CSS стили для popup__container */
+
+.popup__container {
+  position: fixed;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  border-radius: 10px;
+  width: 430px;
+  /*height: 330px;*/
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 780px) {
+  .popup__container {
+    width: 282px;
+    /*height: 322px;*/
+  }
+}

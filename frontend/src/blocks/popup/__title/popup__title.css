@@ -1,0 +1,24 @@
+/* CSS стили для popup__title */
+
+.popup__title {
+  margin: 0;
+  padding: 0;
+  padding-left: 36px;
+  padding-top: 34px;
+  padding-bottom: 48px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media screen and (max-width: 780px) {
+  .popup__title {
+    padding-left: 22px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

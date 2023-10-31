@@ -1,0 +1,37 @@
+/* CSS стили для popup__save */
+
+.popup__save {
+  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 37px;
+  margin-left: 36px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #000000;
+  width: 358px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.popup__save:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 780px) {
+  .popup__save {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    width: 238px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,5 @@
+/* CSS стили для popup__error_visible */
+
+.popup__error_visible {
+  opacity: 1;
+}

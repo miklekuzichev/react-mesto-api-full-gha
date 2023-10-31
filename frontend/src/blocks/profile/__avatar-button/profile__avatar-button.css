@@ -1,0 +1,14 @@
+/* CSS стили для profile__avatar-button */
+
+.profile__avatar-button {
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-image: url("../../../images/profile__avatar-button.svg");
+  background-size: 26px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+}
