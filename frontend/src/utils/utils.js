@@ -1,4 +1,4 @@
-export const BASE_URL = "http://miklekuzichev.mesto.nomoredomainsrocks.ru"; //Базовый URL
+export const BASE_URL = "https://api.miklekuzichev.mesto.nomoredomainsrocks.ru"; //Базовый URL
 
 //
 // Функция отображения ошибок и отображения текста кнопки сабмита

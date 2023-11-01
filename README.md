@@ -23,9 +23,9 @@
 
 ## Ссылки на проект
 
-Публичный IP 51.250.81.92;
+IP 51.250.81.92;
 
-Frontend http://miklekuzichev.mesto.nomoredomainsrocks.ru;
+Frontend https://miklekuzichev.mesto.nomoredomainsrocks.ru;
 
-Backend http://api.miklekuzichev.mesto.nomoredomainsrocks.ru;
+Backend https://api.miklekuzichev.mesto.nomoredomainsrocks.ru;
 
