@@ -55,8 +55,8 @@ app.get('/crash-test', () => {
   }, 0);
 });
 
-app.use(limiter);
 app.use(requestLogger); // подключаем логгер запросов
+app.use(limiter);
 //
 // Монтируем мидлверы
 //

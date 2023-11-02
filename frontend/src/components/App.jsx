@@ -160,15 +160,14 @@ function App() {
         if(res && res._id) {
           setLoggedIn(true);
           setUserEmail(data.email);
-          //handleCheckToken();
           localStorage.setItem("jwt", res._id);
           api.setToken(res._id);
           navigate("/");
-
         }
       })
       .catch((err) => {
         console.log(err);
+        setIsRegistration(false);
         openInfoTooltip();
       });
   };
@@ -219,12 +218,6 @@ function App() {
     api.setToken(null);
     navigate("/sign-in");
   };
-
-  //useEffect(() => {
-  //  if (loggedIn) {
-  //    navigate("/");
-  //  }
-  //}, [loggedIn]);
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
